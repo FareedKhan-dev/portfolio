@@ -17,48 +17,34 @@ const config = {
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
+    medium: 'fareedkhandev',
     dev: 'arifszn',
     stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://fareedkhan-dev.github.io/portfolio/',
+    phone: '+923492014875',
+    email: 'fareedhassankhan12@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
-  skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
+  skills: ['Docker','Redis','MongoDB','Oracle', 'Hadoop', 'Apache Spark', 'Apache Hive', 'Git', 'GitHub' 
+           'Python (Scikit-learn, NLTK, TensorFlow, PySpark, SpaCy, etc.)', 'front End Web Development', 'UI/UX Design'],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Fortune Securities, Karachi',
+      position: 'Mutual Fund Robo Advisor Developer',
+      from: '2019',
+      to: '2020',
+      companyLink: 'https://www.fortunesecurities.com/',
     },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+//     {
+//       company: 'Company Name',
+//       position: 'Position',
+//       from: 'July 2019',
+//       to: 'August 2021',
+//       companyLink: 'https://example.com',
+//     },
   ],
   /* certifications: [
     {
@@ -70,36 +56,36 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'IBA Karachi',
+      degree: 'MS in Data Science',
+      from: '2021',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'NED University of Engineering and Technology',
+      degree: 'BS in Computational Finance',
+      from: '2016',
+      to: '2020',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-  ],
+//   externalProjects: [
+//     {
+//       title: 'Project Name',
+//       description:
+//         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+//       imageUrl: 'https://via.placeholder.com/250x250',
+//       link: 'https://example.com',
+//     },
+//     {
+//       title: 'Project Name',
+//       description:
+//         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+//       imageUrl: 'https://via.placeholder.com/250x250',
+//       link: 'https://example.com',
+//     },
+//   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
