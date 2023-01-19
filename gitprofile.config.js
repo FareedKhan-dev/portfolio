@@ -18,8 +18,8 @@ const config = {
     dribbble: '',
     behance: '',
     medium: 'fareedkhandev',
-    dev: '13202252/fareed-khan',
-    stackoverflow: '', // format: userid/username
+    dev: '',
+    stackoverflow: '13202252/fareed-khan', // format: userid/username
     website: 'https://fareedkhan-dev.github.io/portfolio/',
     phone: '+923492014875',
     email: 'fareedhassankhan12@gmail.com',
@@ -36,7 +36,6 @@ const config = {
       position: 'Mutual Fund Robo Advisor Developer',
       from: '2019',
       to: '2020',
-      basictesting:'asfasfasfafasfasfasf',
       companyLink: 'https://www.fortunesecurities.com/',
     },
 //     {
@@ -89,9 +88,9 @@ const config = {
 //   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    source: 'medium', // medium | dev
+    username: 'fareedkhandev', // to hide blog section, keep it empty
+    limit: 4, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -102,7 +101,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
