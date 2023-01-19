@@ -3,7 +3,7 @@
 const config = {
   github: {
     username: 'FareedKhan-dev', // Your GitHub org/user name. (Required)
-    sortBy: 'updated', // stars | updated
+    sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -18,7 +18,7 @@ const config = {
     dribbble: '',
     behance: '',
     medium: 'fareedkhandev',
-    dev: 'arifszn',
+    dev: '13202252/fareed-khan',
     stackoverflow: '', // format: userid/username
     website: 'https://fareedkhan-dev.github.io/portfolio/',
     phone: '+923492014875',
@@ -36,6 +36,7 @@ const config = {
       position: 'Mutual Fund Robo Advisor Developer',
       from: '2019',
       to: '2020',
+      basictesting:'asfasfasfafasfasfasf',
       companyLink: 'https://www.fortunesecurities.com/',
     },
 //     {
