@@ -7,7 +7,7 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['basic-face-detection-opencv', 'cancer-dataset', 'design-resources-for-developers', 'face-blur-opencv', 'facebook-login-page-ui', 'FareedKhan-dev', 'FareedKhan-dev.github.io', 'google-images-download', 'islamic_fund_advisor', 'livelocationtell_me', 'minimal-flask-login-signup-sqlite', 'ml-project-data', 'my-first-blog', 'navaid-khan-project', 'navaidkhan', 'openCV-Beginner_guide', 'php-mail-server', 'portfolio', 'ReactApp-SearchUser', 'repos', 'Responsive-Portfolio-Website', 'simpsons-chat', 'stackoverflow-profile-embed', 'Summer2023-Internships', 'test-again', 'test-repo', 'testor', 'Tkinter-Beginner-Guide', 'Tourist-Arrivals-in-Rio-de-Janeiro-2006-2019-machine-learnng-project', 'toyota_corolla_data', 'turtle-blog', 'weathermap_api_public', 'we_current', 'zevar'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -101,7 +101,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dark',
+    defaultTheme: 'dracula',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
