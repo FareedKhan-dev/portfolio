@@ -26,7 +26,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: ['Docker','Redis','MongoDB','Oracle', 'Hadoop', 'Apache Spark', 'Apache Hive', 'Git', 'GitHub',
            'Python (Scikit-learn, NLTK, TensorFlow, PySpark, SpaCy, etc.)', 'front End Web Development', 'UI/UX Design'],
