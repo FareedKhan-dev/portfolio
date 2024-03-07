@@ -31,9 +31,17 @@ const config = {
   skills: ['Docker','Redis','MongoDB','Oracle', 'Hadoop', 'Apache Spark', 'Apache Hive', 'Git', 'GitHub',
            'Python (Scikit-learn, NLTK, TensorFlow, PySpark, SpaCy, etc.)', 'front End Web Development', 'UI/UX Design'],
   experiences: [
+    
+    {
+      company: 'IBA, Karachi',
+      position: 'Teaching Assistant',
+      from: '2022',
+      to: '2023',
+      companyLink: 'https://www.iba.edu.pk/',
+    },
     {
       company: 'Fortune Securities, Karachi',
-      position: 'Mutual Fund Robo Advisor Developer',
+      position: 'Quantitative Investment Analyst',
       from: '2019',
       to: '2020',
       companyLink: 'https://www.fortunesecurities.com/',
@@ -59,7 +67,7 @@ const config = {
       institution: 'IBA Karachi',
       degree: 'MS in Data Science',
       from: '2021',
-      to: '2023',
+      to: '2024',
     },
     {
       institution: 'NED University of Engineering and Technology',
